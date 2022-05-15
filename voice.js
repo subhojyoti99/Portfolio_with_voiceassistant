@@ -17,7 +17,7 @@ const guitarist = ['I am a guitarist by hobby, I believe that beat the strings n
 const webdev = ['I am a web developer also and I am passionate about web designing, being creative helped me a lot to make attractive user interfaces'];
 const iot = ['I was influenced by the fictional charecter tony stark or you can say the IRON Man. Then I realized the need of automation and human-machine co-operation for a greater and healthier future. I am trying to meet the future with my projects'];
 const execute = ['navigateing to destination', 'As you wish'];
-
+const dekha = ['Kar paoge aysa?'];
 
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
@@ -54,6 +54,12 @@ btn.addEventListener('click', () => {
         speech.text = idk[Math.floor(Math.random() * idk.length)];
     
 
+    if(massage.includes('dekha')){
+        recognition.stop();
+        speech.text = dekha;
+        console.log(speech.text);
+    }
+        
     if(massage.includes('how are you')){
         recognition.stop();
         const finalText = greetings[Math.floor(Math.random() * greetings.length)];
@@ -116,6 +122,7 @@ btn.addEventListener('click', () => {
         speech.text = iot;
         console.log(speech.text);
     }
+     
 
     if(massage.includes('go') && massage.includes('to')){
         recognition.stop();
