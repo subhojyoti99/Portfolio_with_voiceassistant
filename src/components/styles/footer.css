@@ -159,7 +159,7 @@ footer{
 }
 
 .handles a {
-    color: #fff; /* Adjust as needed */
+    color: rgba(255, 255, 255, 0.50);
     text-decoration: none;
 }
 
@@ -187,6 +187,7 @@ footer{
 
 .address {
     text-align: center;
+    color: rgba(255, 255, 255, 0.50);
 }
 
 
@@ -204,3 +205,14 @@ footer{
   .right-column .back-to-top a:hover {
     text-decoration: underline;
   }
+
+footer{
+    background-color:#1b1b1b;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    letter-spacing: .1rem;
+    color: rgba(255,255,255, 0.50);
+    padding-bottom: 2.5rem; 
+    padding: 1.5rem;
+}

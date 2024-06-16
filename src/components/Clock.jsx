@@ -77,7 +77,7 @@ function Clock() {
 
   return (
     <div>
-      <div id="greeting"></div>
+      <div id="greeting" style={{ fontSize: "40px" }}></div>
     </div>
   );
 }
