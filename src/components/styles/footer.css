@@ -1,4 +1,4 @@
-
+/* 
 #footer{
     color: aliceblue;
     background-color: #151515;
@@ -122,4 +122,85 @@ footer{
 
 footer{
     padding: 1.5rem;
+} */
+
+#footer {
+    background-color: #333; /* Adjust as needed */
+    color: #fff; /* Adjust as needed */
+    padding: 20px;
+    font-size: x-large;
 }
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left-column, .right-column {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px; /* Adjust based on your needs */
+}
+
+.achknowledge {
+    width: fit-content;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.handles ul {
+    list-style: none;
+    padding: 1rem;
+}
+
+.handles li {
+    margin: 5px 0;
+}
+
+.handles a {
+    color: #fff; /* Adjust as needed */
+    text-decoration: none;
+}
+
+.handles a:hover {
+    color: beige;
+}
+
+.timezone {
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 1rem;
+    margin-right: 35%;
+}
+
+.footsign {
+    text-align: center;
+    margin-bottom: 20px; /* Add some space below the image */
+}
+
+.footsign img {
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+.address {
+    text-align: center;
+}
+
+
+.back-to-top {
+    display: flex;
+    justify-content: center;
+    margin-top: 8.5rem; /* Adjust as needed */
+  }
+  
+  .right-column .back-to-top a {
+    color: #fff; /* Adjust as needed */
+    text-decoration: none;
+  }
+  
+  .right-column .back-to-top a:hover {
+    text-decoration: underline;
+  }
