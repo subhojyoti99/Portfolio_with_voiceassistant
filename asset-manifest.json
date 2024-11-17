@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio_with_voiceassistant/static/css/main.a1d4fe4b.css",
-    "main.js": "/Portfolio_with_voiceassistant/static/js/main.ee0c65d7.js",
+    "main.css": "/Portfolio_with_voiceassistant/static/css/main.744940bd.css",
+    "main.js": "/Portfolio_with_voiceassistant/static/js/main.25f61a70.js",
     "static/js/453.35884a0e.chunk.js": "/Portfolio_with_voiceassistant/static/js/453.35884a0e.chunk.js",
     "static/media/myPic.jpg": "/Portfolio_with_voiceassistant/static/media/myPic.81bb602cd2989efbca8e.jpg",
+    "static/media/IOT1.jpg": "/Portfolio_with_voiceassistant/static/media/IOT1.e89693b2a30f0096fcb7.jpg",
+    "static/media/guitar.jpg": "/Portfolio_with_voiceassistant/static/media/guitar.5710a200438cf138a783.jpg",
+    "static/media/mac.jpg": "/Portfolio_with_voiceassistant/static/media/mac.f44c317de6fc35081fd5.jpg",
     "static/media/sign.png": "/Portfolio_with_voiceassistant/static/media/sign.c311150893d6a348a2bb.png",
     "index.html": "/Portfolio_with_voiceassistant/index.html",
-    "main.a1d4fe4b.css.map": "/Portfolio_with_voiceassistant/static/css/main.a1d4fe4b.css.map",
-    "main.ee0c65d7.js.map": "/Portfolio_with_voiceassistant/static/js/main.ee0c65d7.js.map",
+    "main.744940bd.css.map": "/Portfolio_with_voiceassistant/static/css/main.744940bd.css.map",
+    "main.25f61a70.js.map": "/Portfolio_with_voiceassistant/static/js/main.25f61a70.js.map",
     "453.35884a0e.chunk.js.map": "/Portfolio_with_voiceassistant/static/js/453.35884a0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1d4fe4b.css",
-    "static/js/main.ee0c65d7.js"
+    "static/css/main.744940bd.css",
+    "static/js/main.25f61a70.js"
   ]
 }
