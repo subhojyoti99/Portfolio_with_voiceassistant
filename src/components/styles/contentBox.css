@@ -1,0 +1,57 @@
+/* Container for Content Boxes */
+.conbox {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  margin: 10vh 0;
+}
+
+/* Individual Content Box */
+.cbox {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.3),
+    rgba(128, 128, 128, 0.3)
+  );
+  width: 18%;
+  height: 45vh;
+  border-radius: 5%;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  transition: all 0.5s;
+  font-size: 1.2vw;
+}
+
+.cbox:hover {
+  transform: translateY(-10px);
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(128, 128, 128, 0.3),
+    rgba(225, 225, 225, 0.3)
+  );
+}
+
+.cbox span {
+  padding: 2.5rem;
+  font-size: 3.5rem;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 430px) {
+  .conbox {
+    margin: 2vh 0;
+  }
+  .cbox {
+    margin: 6%;
+    width: 40%;
+    height: 25vh;
+    border-radius: 10%;
+    padding: 1rem;
+  }
+  .cbox i {
+    padding: 1rem;
+  }
+}

@@ -75,7 +75,7 @@
     z-index: 4;
 }
   
-.content{
+/* .content{
     color: aliceblue;
     padding: 2rem;
     width: 50%;
@@ -87,14 +87,28 @@
     animation-delay: 5s;
     animation-fill-mode: backwards;
     z-index: 2;
+} */
+
+.content{
+    color: aliceblue;
+    padding: 0.4rem;
+    width: 55%;
+    position: relative;
+    left: 42%;
+    margin: .4vh;
+    animation: moveInBottom;
+    animation-duration: 1.2s;
+    animation-delay: 5s;
+    animation-fill-mode: backwards;
+    z-index: 2;
 }
   
 .heading{
     color: beige;
-    font-size: 55px;
+    font-size: 4vw;
     font-weight: 800;
-    margin: 2.5vh 0;
-    line-height: 5vh;
+    margin: 3.5vh 0;
+    line-height: 7vh;
     animation:moveInBottom;
     animation-duration: 2s;
     animation-delay: 4.5s;

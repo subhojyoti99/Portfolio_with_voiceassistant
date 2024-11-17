@@ -1,0 +1,63 @@
+/* Main Special Section */
+#special {
+  background: #222;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Clipped Background Shape */
+.clipy {
+  clip-path: polygon(0 40%, 100% 0%, 100% 60%, 0% 100%);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #111;
+  z-index: 0;
+}
+
+/* Header Text */
+.what-special {
+  position: relative;
+  width: 80%;
+  z-index: 1;
+  left: 5%;
+  color: white;
+}
+
+.answer {
+  text-align: center;
+}
+
+.what-special {
+  color: beige;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 300;
+  margin: 2.5vh 0;
+  line-height: 10vh;
+  animation: moveInBottom;
+  animation-duration: 2s;
+  animation-delay: 4.5s;
+  animation-fill-mode: backwards;
+  z-index: 2;
+}
+
+/* .what-special{
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+.myFriend{
+    padding: 15px;
+} */
+
+/* Responsive adjustments */
+@media only screen and (max-width: 430px) {
+  .what-special {
+    text-align: center;
+    padding-left: 1.5rem;
+  }
+  .what-special h4 {
+    padding-left: 1rem;
+  }
+}

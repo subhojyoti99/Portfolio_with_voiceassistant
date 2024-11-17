@@ -13,10 +13,9 @@ export const LandingPage = () => {
         <div className="menu">{/* Menu items are commented out */}</div>
         <div className="content">
           <h2 className="subject">Who am I!?</h2>
-          <h1 className="heading">Generative AI Developer.</h1>
+          <h1 className="heading">A Generative AI Developer.</h1>
           <p className="desc">
-            I am a Gen AI Developer as well as a Back-end Developer and a
-            Guitarist.
+            As well as a Back-end Developer and a Guitarist.
             <br />
             Offering help in your growth with my creativity and your dreams.
             <br />

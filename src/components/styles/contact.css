@@ -1,6 +1,6 @@
-.contact {
+/* .contact {
   color: azure;
-  /* font-size: xx-large; */
+  font-size: xx-large;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -14,9 +14,27 @@
   animation-delay: 5s;
   animation-fill-mode: backwards;
   z-index: 2;
+} */
+
+.contact {
+  color: azure;
+  font-size: xx-large;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0.4rem;
+  width: 55%;
+  position: relative;
+  left: 42%;
+  margin: 3.4vh 0;
+  animation: moveInBottom;
+  animation-duration: 1.2s;
+  animation-delay: 5s;
+  animation-fill-mode: backwards;
+  z-index: 2;
 }
 
-.head{
+.head {
   font-size: xxx-large;
 }
 
@@ -44,24 +62,24 @@
 }
 
 .contact-text {
-margin-left: 5px;
+  margin-left: 5px;
 }
 
-@media only screen and (max-width:430px){
-.contact{
-      left: 10%;
-      padding: .5rem;
-      margin: 6vh auto;
+@media only screen and (max-width: 430px) {
+  .contact {
+    left: 10%;
+    padding: 0.5rem;
+    margin: 6vh auto;
   }
 }
 
 @keyframes moveInBottom {
   0% {
-      opacity: 0;
-      transform: translateY(5rem);
+    opacity: 0;
+    transform: translateY(5rem);
   }
-  100%{
-      opacity: 1;
-      transform: translate(0);
+  100% {
+    opacity: 1;
+    transform: translate(0);
   }
 }
