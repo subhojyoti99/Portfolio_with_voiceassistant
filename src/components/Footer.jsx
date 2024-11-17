@@ -1,19 +1,21 @@
 import React from "react";
 import "./styles/footer.css";
-import sign from "../images/sign.png";
+import sign from "../images/sign_cropped.png";
 import Clock from "./Clock";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
   return (
     <>
       <section id="footer">
-        <div class="footer-content">
-          <div class="left-column">
+        <div className="footer-content">
+          <div className="left-column">
             <div className="timezone">
               {/* <h1>You are in my TimeZone</h1> */}
               <Clock />
             </div>
-            <div class="achknowledge">
+            <div className="achknowledge">
               <p>
                 This page is still under-going upgrades. Work on bug fixing is
                 still going-on.
@@ -25,12 +27,12 @@ export default function Footer() {
               </h4>
             </div>
 
-            <div class="handles">
+            <div className="handles">
               <ul>
                 <li>
                   <a
                     id="Instagram"
-                    href="https://www.instagram.com/p/B-UqLfkgtbmjcdPXnr-qHmTSq03ckjccCQLkao0/"
+                    href="https://www.instagram.com/radioactive__decay/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -40,7 +42,7 @@ export default function Footer() {
                 <li>
                   <a
                     id="LinkedIn"
-                    href="https://www.linkedin.com/in/subhajyoti-singha-27a5b31b1/"
+                    href="https://www.linkedin.com/in/subhojyoti-singha-27a5b31b1/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -60,7 +62,7 @@ export default function Footer() {
                 <li>
                   <a
                     id="Facebook"
-                    href="https://www.facebook.com/subho.singha.10"
+                    href="https://www.facebook.com/subhojyotisingha06"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -71,23 +73,36 @@ export default function Footer() {
             </div>
           </div>
 
-          <div class="right-column">
-            <div class="footsign">
+          <div className="right-column">
+            <div className="footsign">
               <img width="50%" fill="none" src={sign} alt="sign" />
             </div>
 
-            <div class="address">
-              <h4>
-                Ballygunge,
-                <br /> KOLKATA-700019
-              </h4>
+            <div className="address">
+              <div
+                style={{
+                  margin: "16px",
+                  display: "flex",
+                  justifyContent: "center",
+                  gap: "20px",
+                }}
+              >
+                <h4>
+                  Ballygunge,
+                  <br /> KOLKATA-700019
+                </h4>
+                <span style={{ display: "flex", alignItems: "center" }}>
+                  <FontAwesomeIcon icon={faArrowRight} size="2x" />
+                </span>
+                <p>
+                  22°32'19.3"N 88°21'47.3"E <br />
+                  22.538704, 88.363126
+                </p>
+              </div>
+            </div>
+            <div className="latestUpdate">
               <p>
-                22°32'19.3"N 88°21'47.3"E <br />
-                22.538704, 88.363126
-              </p>
-
-              <p>
-                Last Site Update <p> Apr 26, 2022</p>
+                Latest Update -- November 18<sup>th</sup>, 2024
               </p>
             </div>
             <div className="back-to-top">

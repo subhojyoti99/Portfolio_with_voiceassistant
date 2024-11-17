@@ -1,218 +1,105 @@
-/* 
-#footer{
-    color: aliceblue;
-    background-color: #151515;
-    padding: .5rem;
-    overflow: hidden;
-    font-size: x-large;
-}
-
-.achknowledge{
-    width: fit-content;
-    padding: 1rem;
-    margin-bottom: 3rem;
-}
-
-.achknowledge h4{
-    margin-top: 1rem;
-    letter-spacing: 0.01rem;
-    font-weight: lighter;
-    width: 60%;
-}
-
-.achknowledge h4:hover{
-    font-size: 1.8rem;
-}
-
-.handles{
-    margin: 0 0 1rem 1rem;
-    letter-spacing: .1rem;
-    width: -moz-fit-content;
-    width: fit-content;
-    position: absolute;
-    margin-top: 10vh;
-    margin-top: 10px;
-}
-
-.timezone{
-    margin: 0 0 4rem 6rem;
-    letter-spacing: .1rem;
-    width: 55%;
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    font-size: 2vh;
-    margin-left: 5%; 
-    margin-top: 33vh;
-    right: 58%;
-}
-
-.greet{
-    color: azure;
-    justify-content: center;
-    text-align: center;
-    font-size: 4vh;
-    font-weight: bolder;
-    max-height: 90px;
-    padding: 1em;
-    margin: 10px;
-}
-
-.address{
-    color:rgba(255, 255, 255, 0.50);
-    width: 18%;
-    position: relative;
-    left: 70%;
-    padding: 2rem;
-}
-
-.address p{
-    margin-top: 4vh;
-}
-
-.address a{
-    color: rgb(255, 255, 255);
-    letter-spacing: .1rem;
-    position: relative;
-    top: 2.5rem;
-}
-
-.footsign{
-    position: relative;
-    left: 52%;
-}
-
-footer{
-    background-color:#1b1b1b;
-    display: flex;
-    justify-content: center;
-    font-weight: 100;
-    letter-spacing: .1rem;
-    color: rgba(255,255,255, 0.50);
-    padding-bottom: 2.5rem; 
-}
-
-@media only screen and (max-width:430px){
-    #footer{
-        text-align: center;
-    }
-    .achknowledge{
-        position: relative;
-        width: 100%;
-    }
-    .handles{
-        position: relative;
-        margin: 0;
-        width: 40%;
-        left: 30%;
-    }
-    .address{
-        width: 80%;
-        left: 10%;
-    }
-    .address p{
-        margin-top: 2vh;
-    }
-    .footsign{
-        left: 0;
-        margin: 2vh 0;
-    }
-    
-}
-
-footer{
-    padding: 1.5rem;
-} */
-
 #footer {
-    background-color: #333; /* Adjust as needed */
-    color: #fff; /* Adjust as needed */
-    padding: 20px;
-    font-size: x-large;
+  background-color: #333; /* Adjust as needed */
+  color: #fff; /* Adjust as needed */
+  padding: 20px;
+  font-size: 21px;
 }
 
 .footer-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.left-column, .right-column {
-    flex: 1;
-    margin: 10px;
-    min-width: 250px; /* Adjust based on your needs */
+.left-column,
+.right-column {
+  flex: 1;
+  margin: 10px;
+  min-width: 250px; /* Adjust based on your needs */
 }
 
 .achknowledge {
-    width: fit-content;
-    padding: 1rem;
-    margin-bottom: 1rem;
+  width: fit-content;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 .handles ul {
-    list-style: none;
-    padding: 1rem;
+  list-style: none;
+  padding: 1rem;
 }
 
 .handles li {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 .handles a {
-    color: rgba(255, 255, 255, 0.50);
-    text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
 }
 
 .handles a:hover {
-    color: beige;
+  color: beige;
 }
 
 .timezone {
-    justify-content: center;
-    text-align: center;
-    margin-top: 20px;
-    padding: 1rem;
-    margin-right: 35%;
+  /* justify-content: center;
+  text-align: center; */
+  margin-top: 10px;
+  padding: 1rem;
+  margin-right: 35%;
 }
 
 .footsign {
-    text-align: center;
-    margin-bottom: 20px; /* Add some space below the image */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* margin: auto; */
 }
 
 .footsign img {
-    display: block;
-    margin: 0 auto; /* Center the image */
+  display: block;
+  margin-top: 21px;
+  width: 25%;
+  padding-top: 20px;
 }
 
 .address {
-    text-align: center;
-    color: rgba(255, 255, 255, 0.50);
+  text-align: start;
+  color: rgba(255, 255, 255, 0.5);
+  /* float: right; */
 }
 
-
 .back-to-top {
-    display: flex;
-    justify-content: center;
-    margin-top: 8.5rem; /* Adjust as needed */
-  }
-  
-  .right-column .back-to-top a {
-    color: #fff; /* Adjust as needed */
-    text-decoration: none;
-  }
-  
-  .right-column .back-to-top a:hover {
-    text-decoration: underline;
-  }
+  color: rgba(255, 255, 255, 0.5);
+  margin: 16px;
+  display: flex;
+  justify-content: end;
+  margin-top: 7rem; /* Adjust as needed */
+}
 
-footer{
-    background-color:#1b1b1b;
-    display: flex;
-    justify-content: center;
-    font-weight: 100;
-    letter-spacing: .1rem;
-    color: rgba(255,255,255, 0.50);
-    padding-bottom: 2.5rem; 
-    padding: 1.5rem;
+.right-column {
+  color: #fff; /* Adjust as needed */
+  text-decoration: none;
+}
+
+.right-column .back-to-top a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #1b1b1b;
+  display: flex;
+  justify-content: center;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 2.5rem;
+  padding: 0.5rem;
+}
+
+.latestUpdate {
+  margin: 16px;
+  display: flex;
+  flex-direction: row-reverse;
 }
