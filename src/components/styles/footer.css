@@ -75,7 +75,7 @@
   margin: 16px;
   display: flex;
   justify-content: end;
-  margin-top: 7rem; /* Adjust as needed */
+  /* margin-top: 7rem; */
 }
 
 .right-column {
