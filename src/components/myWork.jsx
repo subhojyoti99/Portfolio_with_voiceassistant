@@ -19,7 +19,7 @@ const MyWork = () => {
               <h3>As a GenAI Developer</h3>
             </div>
             <div className="flip-card-back">
-              <h1>IoT Project</h1>
+              <h1>Gen AI Project</h1>
               <p>
                 “If you think that the internet has changed your life, think
                 again. Generative AI is about to change it all over again!”
