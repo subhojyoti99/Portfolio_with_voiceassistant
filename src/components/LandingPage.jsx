@@ -1,11 +1,47 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Contact from "./Contact";
 import "./styles/landingPage.css";
 import sign from "../images/sign.png";
 
 export const LandingPage = () => {
+  const containerRef = useRef(null);
+  const cardRef = useRef(null);
+
+  useEffect(() => {
+    const container = containerRef.current;
+    const card = cardRef.current;
+
+    if (container && card) {
+      const handleMouseMove = (e) => {
+        const xAxis = (window.innerWidth / 2 - e.pageX) / 20;
+        const yAxis = (window.innerHeight / 2 - e.pageY) / 20;
+        card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+      };
+
+      const handleMouseEnter = () => {
+        card.style.transition = "none";
+      };
+
+      const handleMouseLeave = () => {
+        card.style.transition = "all 1.5s ease";
+        card.style.transform = `rotateY(0deg) rotateX(0deg)`;
+      };
+
+      container.addEventListener("mousemove", handleMouseMove);
+      container.addEventListener("mouseenter", handleMouseEnter);
+      container.addEventListener("mouseleave", handleMouseLeave);
+
+      // Cleanup event listeners
+      return () => {
+        container.removeEventListener("mousemove", handleMouseMove);
+        container.removeEventListener("mouseenter", handleMouseEnter);
+        container.removeEventListener("mouseleave", handleMouseLeave);
+      };
+    }
+  }, []);
+
   return (
-    <section id="opening">
+    <section id="opening" ref={containerRef}>
       <div className="circlefloat m1">hello</div>
       <div className="circlefloat m2"></div>
       <div className="circlefloat m3"></div>
@@ -33,7 +69,7 @@ export const LandingPage = () => {
           <Contact />
         </div>
       </div>
-      <div className="card">
+      <div className="card" ref={cardRef}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="40%"

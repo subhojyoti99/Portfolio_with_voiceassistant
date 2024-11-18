@@ -105,6 +105,7 @@ export default function Footer() {
                 <p>
                   Latest Update -- November 18<sup>th</sup>, 2024
                 </p>
+                {/* <Map /> */}
               </div>
             </div>
           </div>
