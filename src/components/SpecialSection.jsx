@@ -8,6 +8,7 @@ import {
   faHandsHelping,
   faComments,
   faGlassCheers,
+  faClock,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const SpecialSection = () => {
@@ -52,6 +53,17 @@ export const SpecialSection = () => {
           <p>
             To start the conversation with the assistant click the microphone
             button
+          </p>
+        </div>
+        <div className="cbox">
+          <span>
+            <FontAwesomeIcon icon={faClock} />
+          </span>
+          <p>
+            {" "}
+            After 5 seconds, the assistant will ask for further assistance. You
+            can continue the conversation after it says "Is there anything else
+            I can assist you with?"
           </p>
         </div>
         <div className="cbox">
