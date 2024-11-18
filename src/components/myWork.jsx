@@ -22,8 +22,7 @@ const MyWork = () => {
               <h1>IoT Project</h1>
               <p>
                 “If you think that the internet has changed your life, think
-                again. The Internet of Things is about to change it all over
-                again!”
+                again. Generative AI is about to change it all over again!”
               </p>
               <a href="#">
                 <button type="button" className="card-button">
