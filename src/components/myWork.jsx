@@ -16,7 +16,7 @@ const MyWork = () => {
               style={{ backgroundColor: "rgba(0, 0, 0, 0.767)" }}
             >
               <img src={IOTImage} alt="IoT Project" />
-              <h3>As an IoT Developer</h3>
+              <h3>As a GenAI Developer</h3>
             </div>
             <div className="flip-card-back">
               <h1>IoT Project</h1>
