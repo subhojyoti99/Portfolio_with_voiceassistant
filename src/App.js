@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Routes>
         <Route
-          path="/"
+          path="Portfolio_with_voiceassistant/"
           element={
             <>
               <Welcome />
