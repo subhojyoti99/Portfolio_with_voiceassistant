@@ -52,6 +52,7 @@
   align-items: center;
   color: white;
   overflow: hidden;
+  cursor: progress;
 }
 
 .flip-card-front img {

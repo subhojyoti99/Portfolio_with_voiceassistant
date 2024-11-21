@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  /* font-family: "Roboto", sans-serif; */
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard-header {
+  text-align: center;
+  /* background: linear-gradient(90deg, #1e88e5, #43a047); */
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.5), #333);
+  color: white;
+  padding: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.dashboard-header p {
+  font-size: 1.2rem;
+  margin: 10px 0 0;
+}
+
+/* Full-Screen Overview Section */
+.project-details {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f9fafc;
+  border: 1px solid #e6e9ec;
+  border-radius: 8px;
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+}
+
+.testops-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.testops-header h2 {
+  font-size: 1.75rem;
+  color: #444;
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.bar-chart-icon {
+  background-color: beige;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.bar-chart-icon:hover {
+  background-color: #444;
+}
+
+/* Section Styling */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #444;
+}
+
+button.detailed-score-btn {
+  background-color: #222;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+button.detailed-score-btn:hover {
+  background-color: #fff;
+  color: #222;
+}
+
+/* Modal Styling */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 60%;
+  max-height: 70%;
+  overflow-y: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative; /* Added relative positioning to make the close button absolute */
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.close-modal:hover {
+  color: #999;
+}
+
+/* Text Alignments */
+pre {
+  font-family: "Courier New", monospace;
+  font-size: 1rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

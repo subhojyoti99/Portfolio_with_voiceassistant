@@ -1,21 +1,33 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
 import { LandingPage } from './components/LandingPage';
 import MyWork from './components/myWork';
 import { NameWord } from './components/NameWord';
 import { SpecialSection } from './components/SpecialSection';
 import { Welcome } from './components/Welcome';
+import GenAIDashboard from './components/projects/genAI/GenAIDashboard';
 
 function App() {
   return (
-    <>
-    <Welcome />
-    <LandingPage />
-    <NameWord />
-    <SpecialSection />
-    <MyWork />
-    <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Welcome />
+              <LandingPage />
+              <NameWord />
+              <SpecialSection />
+              <MyWork />
+            </>
+          }
+        />
+        <Route path="/gen-ai-dashboard" element={<GenAIDashboard />} />
+      </Routes>
+          <Footer />
+    </Router>
   );
 }
 

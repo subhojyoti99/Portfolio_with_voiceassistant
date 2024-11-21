@@ -1,10 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./styles/myWork.css";
 import IOTImage from "../images/IOT1.jpg";
 import GuitarImage from "../images/guitar.jpg";
 import WebDevImage from "../images/mac.jpg";
 
 const MyWork = () => {
+  const navigate = useNavigate();
+
   return (
     <section id="work">
       <h1 className="heading">- MY WORK</h1>
@@ -24,11 +27,14 @@ const MyWork = () => {
                 “If you think that the internet has changed your life, think
                 again. Generative AI is about to change it all over again!”
               </p>
-              <a href="#">
-                <button type="button" className="card-button">
-                  View Project
-                </button>
-              </a>
+
+              <button
+                type="button"
+                className="card-button"
+                onClick={() => navigate("/gen-ai-dashboard")}
+              >
+                View Project
+              </button>
             </div>
           </div>
         </div>
