@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Times+New+Roman:wght@400;700&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Times+New+Roman:wght@400;700&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,12 +8,12 @@
 html {
   /* font-size:62.5%; */
 }
-body{
+body {
   background-color: #222;
-  font-family: 'Times New Roman', serif;
+  font-family: "Times New Roman", serif;
 }
 
-.anime{
+.anime {
   position: absolute;
   background: black;
   height: 100vh;
@@ -21,60 +21,60 @@ body{
   width: 100%;
 }
 
-.wlc{
+.wlc {
   position: absolute;
   left: 50%;
   top: 40%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
-.wlc path:nth-child(1){
+.wlc path:nth-child(1) {
   stroke-dasharray: 100%;
   stroke-dashoffset: 50px;
 }
-.wlc path:nth-child(2){
+.wlc path:nth-child(2) {
   stroke-dasharray: 800px;
   stroke-dashoffset: 800px;
   animation: line-anim 1s ease forwards 0.3s;
 }
-.wlc path:nth-child(3){
+.wlc path:nth-child(3) {
   stroke-dasharray: 540px;
   stroke-dashoffset: 540px;
   animation: line-anim 1s ease forwards 0.7s;
 }
-.wlc path:nth-child(4){
+.wlc path:nth-child(4) {
   stroke-dasharray: 355px;
   stroke-dashoffset: 355px;
   animation: line-anim 1s ease forwards 1s;
 }
-.wlc path:nth-child(5){
+.wlc path:nth-child(5) {
   stroke-dasharray: 500px;
   stroke-dashoffset: 500px;
   animation: line-anim 1s ease forwards 1.3s;
 }
-.wlc path:nth-child(6){
+.wlc path:nth-child(6) {
   stroke-dasharray: 335px;
   stroke-dashoffset: 335px;
   animation: line-anim 1s ease forwards 1.6s;
 }
-.wlc path:nth-child(7){
+.wlc path:nth-child(7) {
   stroke-dasharray: 810px;
   stroke-dashoffset: 810px;
   animation: line-anim 1s ease forwards 1.9s;
 }
-.wlc path:nth-child(8){
+.wlc path:nth-child(8) {
   stroke-dasharray: 540px;
   stroke-dashoffset: 540px;
   animation: line-anim 1s ease forwards 2.2s;
 }
 
-@keyframes line-anim{
-  to{
-      stroke-dashoffset: 0;
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
   }
 }
 
-.backline{
+.backline {
   position: absolute;
   top: 50%;
   left: 18%;
@@ -83,8 +83,7 @@ body{
   animation: line-anim 1.6s ease forwards 0.6s;
 }
 
-
-.backtext{
+.backtext {
   position: absolute;
   top: 52%;
   left: 55%;
@@ -92,54 +91,53 @@ body{
   animation-duration: 1.5s;
   animation-delay: 1.5s;
   animation-fill-mode: backwards;
-
 }
 
 @keyframes appear {
-  0%{
-      opacity: 0;
+  0% {
+    opacity: 0;
   }
-  100%{
-      opacity: 100%;
-  }
-}
-
-@media only screen and (max-width:430px){
-
-  .wlc{
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%,-50%);
-  }
-  .backline{
-      position: absolute;
-      top: 53%;
-      left: 18%;
-      stroke-dasharray: 740px;
-      stroke-dashoffset: 740px;
-      animation: line-anim 1.6s ease forwards 0.6s;
-  }
-  
-  
-  .backtext{
-      position: absolute;
-      top: 54%;
-      left: 55%;
-      animation-name: appear;
-      animation-duration: 1.5s;
-      animation-delay: 1.5s;
-      animation-fill-mode: backwards;
-  
+  100% {
+    opacity: 100%;
   }
 }
 
+@media only screen and (max-width: 430px) {
+  .wlc {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .backline {
+    position: absolute;
+    top: 53%;
+    left: 18%;
+    stroke-dasharray: 740px;
+    stroke-dashoffset: 740px;
+    animation: line-anim 1.6s ease forwards 0.6s;
+  }
 
-.circlefloat{
+  .backtext {
+    position: absolute;
+    top: 54%;
+    left: 55%;
+    animation-name: appear;
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: backwards;
+  }
+}
+
+.circlefloat {
   height: 70vw;
   width: 70vw;
   border-radius: 50%;
-  background-image: linear-gradient(to top right, rgba(75, 75, 75, 0.418), #000000);
+  background-image: linear-gradient(
+    to top right,
+    rgba(75, 75, 75, 0.418),
+    #000000
+  );
   position: absolute;
   z-index: 1;
   animation-name: appear;
@@ -148,19 +146,18 @@ body{
   animation-fill-mode: backwards;
 }
 
-.m1{
+.m1 {
   left: -40%;
   top: -40%;
-  
 }
 
-.m2{
+.m2 {
   height: 20vw;
   width: 20vw;
   top: 50%;
   left: 45%;
 }
-.m3{
+.m3 {
   height: 40vw;
   width: 40vw;
   border-radius: 0 0 0 100%;
@@ -168,20 +165,19 @@ body{
   right: 0%;
 }
 
-@media only screen and (max-width:430px){
-  .m1{
-      left: 0;
-      top: 0;
+@media only screen and (max-width: 430px) {
+  .m1 {
+    left: 0;
+    top: 0;
   }
-  .m3{
-      height: 70vw;
-      width: 70vw;
-      border-radius: 50%;
-      top: 70%;
-      left: 15%;
+  .m3 {
+    height: 70vw;
+    width: 70vw;
+    border-radius: 50%;
+    top: 70%;
+    left: 15%;
   }
 }
-
 
 /* opening page */
 /* #opening{
@@ -209,13 +205,13 @@ body{
   z-index: 2;
 } */
 @keyframes scale {
-  0%{
-      transform: scale(0,0);
-      opacity: 0;
+  0% {
+    transform: scale(0, 0);
+    opacity: 0;
   }
-  100%{
-      transform: scale(1,1);
-      opacity: 1;
+  100% {
+    transform: scale(1, 1);
+    opacity: 1;
   }
 }
 /* 
@@ -240,11 +236,11 @@ body{
 } */
 
 @keyframes moveInLeft {
-  0%{
-      transform: translate(100%);
+  0% {
+    transform: translate(100%);
   }
-  100%{
-      transform: translate(0);
+  100% {
+    transform: translate(0);
   }
 }
 /* 
@@ -316,7 +312,6 @@ body{
   }
 } */
 
-
 /* 
 @media only screen and (max-width:430px){
   .card{
@@ -336,7 +331,6 @@ body{
       margin: 6vh auto;
   }
 } */
-
 
 /* my work section */
 /* /* 
@@ -755,9 +749,6 @@ footer{
 footer{
   padding: 1.5rem;
 } */
-
-
-
 
 @tailwind base;
 @tailwind components;

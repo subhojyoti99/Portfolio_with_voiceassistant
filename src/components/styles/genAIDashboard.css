@@ -1,31 +1,33 @@
 body {
   margin: 0;
-  /* font-family: "Roboto", sans-serif; */
-  background-color: #f4f4f9;
+  background-color: #222;
+  /* background-color: #f4f4f9; */
   color: #333;
 }
 
 .dashboard {
+  font-family: "Roboto", sans-serif;
   padding: 20px;
 }
 
 .dashboard-header {
+  font-family: "Times New Roman", serif;
   text-align: center;
   /* background: linear-gradient(90deg, #1e88e5, #43a047); */
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.5), #333);
-  color: white;
-  padding: 20px 0;
+  color: beige;
+  padding: 10px 0;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .dashboard-header h1 {
-  font-size: 2.5rem;
+  font-size: 4rem;
   margin: 0;
 }
 
 .dashboard-header p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin: 10px 0 0;
 }
 
@@ -33,36 +35,41 @@ body {
 .project-details {
   margin: 20px 0;
   padding: 20px;
-  background-color: #f9fafc;
+  background-color: #282c34;
+  /* background-color: #f9fafc; */
   border: 1px solid #e6e9ec;
   border-radius: 8px;
   width: 100%;
   max-width: none;
   box-sizing: border-box;
+  color: white;
+  font-size: 1.4rem;
 }
 
-.testops-header {
+.projects-header {
+  font-family: "Times New Roman", serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 15px;
 }
 
-.testops-header h2 {
-  font-size: 1.75rem;
-  color: #444;
+.projects-header h2 {
+  font-size: 3rem;
+  color: beige;
   font-weight: 800;
-  font-size: 35px;
 }
 
 .bar-chart-icon {
-  background-color: beige;
+  background-color: #999;
   color: white;
   border: none;
   padding: 10px;
   font-size: 1.2rem;
   cursor: pointer;
   border-radius: 5px;
+  transition: all 0.3s;
+  height: fit-content;
 }
 
 .bar-chart-icon:hover {
@@ -80,7 +87,7 @@ button.detailed-score-btn {
   background-color: #222;
   border: none;
   padding: 12px 20px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   cursor: pointer;
   border-radius: 5px;
   margin-top: 15px;
@@ -91,6 +98,11 @@ button.detailed-score-btn {
 button.detailed-score-btn:hover {
   background-color: #fff;
   color: #222;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
 }
 
 /* Modal Styling */
@@ -105,10 +117,25 @@ button.detailed-score-btn:hover {
   justify-content: center;
   align-items: center;
   z-index: 9999;
+  font-family: "Times New Roman", serif;
+  font-weight: 800;
+}
+
+.keyFeature {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #f4f4f9;
+}
+
+.bullet {
+  color: beige;
+  font-family: "Times New Roman", serif;
+  font-size: 1.6rem;
 }
 
 .modal-content {
-  background-color: #ffffff;
+  background-color: #ccc;
+  font-size: 2rem;
   padding: 20px;
   width: 60%;
   max-height: 70%;
@@ -135,7 +162,7 @@ button.detailed-score-btn:hover {
 /* Text Alignments */
 pre {
   font-family: "Courier New", monospace;
-  font-size: 1rem;
+  font-size: 1.4rem;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
