@@ -91,7 +91,7 @@ export const MicSection = () => {
           { role: "system", content: introductionPrompt },
           { role: "user", content: message },
         ],
-        model: "llama-3.2-90b-text-preview",
+        model: "llama-3.2-90b-vision-preview",
       });
       return (
         response.choices[0]?.message?.content ||
