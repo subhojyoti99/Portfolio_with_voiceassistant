@@ -6,7 +6,7 @@ import Groq from "groq-sdk";
 
 // Initialize the Groq instance with your API key
 const groq = new Groq({
-  apiKey: "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",
+  apiKey: "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",
   dangerouslyAllowBrowser: true,
 });
 
@@ -36,6 +36,7 @@ Work Experience:
   - Implemented JWT token-based authentication for different user roles.
   - Created an office surveillance system using computer vision models.
   - Developed a Legal Analyst app using AWS Bedrock and Qdrant.
+  - Developed LLM-based solutions for medical fields, where implemented RAG system for medical queries, location-based assistance, multilingual document insights, and agent-calling with Twilio functionalities.
   - Built a document management Gen AI project with multilingual translation.
   - Expertise in LLM chain, LangChain, Hugging Face, vector databases, embeddings.
 - Fleapo (April 2023 - June 2023) as Full-Stack MERN Developer Intern
