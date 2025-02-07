@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio_with_voiceassistant/static/css/main.e7e53f2f.css",
-    "main.js": "/Portfolio_with_voiceassistant/static/js/main.1f4a71a6.js",
+    "main.css": "/Portfolio_with_voiceassistant/static/css/main.6c847f29.css",
+    "main.js": "/Portfolio_with_voiceassistant/static/js/main.2f2ff5e9.js",
     "static/js/453.35884a0e.chunk.js": "/Portfolio_with_voiceassistant/static/js/453.35884a0e.chunk.js",
     "static/media/myPic.jpg": "/Portfolio_with_voiceassistant/static/media/myPic.81bb602cd2989efbca8e.jpg",
+    "static/media/deepsort.jpg": "/Portfolio_with_voiceassistant/static/media/deepsort.303f2e1e3880aa50c7e0.jpg",
+    "static/media/old-paper.jpg": "/Portfolio_with_voiceassistant/static/media/old-paper.6bbd7ed0e2588baca415.jpg",
     "static/media/IOT1.jpg": "/Portfolio_with_voiceassistant/static/media/IOT1.e89693b2a30f0096fcb7.jpg",
     "static/media/guitar.jpg": "/Portfolio_with_voiceassistant/static/media/guitar.5710a200438cf138a783.jpg",
+    "static/media/old-paper_1.jpg": "/Portfolio_with_voiceassistant/static/media/old-paper_1.25c5b80facf9b06c508a.jpg",
     "static/media/mac.jpg": "/Portfolio_with_voiceassistant/static/media/mac.f44c317de6fc35081fd5.jpg",
     "static/media/sign.png": "/Portfolio_with_voiceassistant/static/media/sign.c311150893d6a348a2bb.png",
     "static/media/sign_cropped.png": "/Portfolio_with_voiceassistant/static/media/sign_cropped.2f621ce653596511fbe1.png",
+    "static/media/surveillance.avif": "/Portfolio_with_voiceassistant/static/media/surveillance.62081bb83642df12e2a4.avif",
+    "static/media/medical.jpg": "/Portfolio_with_voiceassistant/static/media/medical.d0776aa12e3b8ddcf974.jpg",
     "index.html": "/Portfolio_with_voiceassistant/index.html",
-    "main.e7e53f2f.css.map": "/Portfolio_with_voiceassistant/static/css/main.e7e53f2f.css.map",
-    "main.1f4a71a6.js.map": "/Portfolio_with_voiceassistant/static/js/main.1f4a71a6.js.map",
+    "main.6c847f29.css.map": "/Portfolio_with_voiceassistant/static/css/main.6c847f29.css.map",
+    "main.2f2ff5e9.js.map": "/Portfolio_with_voiceassistant/static/js/main.2f2ff5e9.js.map",
     "453.35884a0e.chunk.js.map": "/Portfolio_with_voiceassistant/static/js/453.35884a0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7e53f2f.css",
-    "static/js/main.1f4a71a6.js"
+    "static/css/main.6c847f29.css",
+    "static/js/main.2f2ff5e9.js"
   ]
 }
