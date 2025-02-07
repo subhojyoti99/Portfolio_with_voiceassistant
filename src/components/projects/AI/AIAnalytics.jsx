@@ -73,21 +73,21 @@ const AIAnalytics = () => {
   ];
 
   return (
-    <div className="dashboard">
+    <div className="dashboard-aianalytics">
       {/* Header */}
-      <header className="dashboard-header">
+      <header className="dashboard-header-aianalytics">
         <h1>AI & Analytics Chapter</h1>
       </header>
 
       {/* Computer Vision Section */}
-      <div className="project-category">
-        <h2 className="category-title">Computer Vision (CV)</h2>
-        <div className="flip-card-holder">
+      <div className="project-category-aianalytics">
+        <h2 className="category-title-aianalytics">Computer Vision (CV)</h2>
+        <div className="flip-card-holder-aianalytics">
           {cvProjects.map((project, index) => (
-            <div key={index} className="flip-card">
-              <div className="flip-card-inner">
+            <div key={index} className="flip-card-aianalytics">
+              <div className="flip-card-inner-aianalytics">
                 <div
-                  className="flip-card-front"
+                  className="flip-card-front-aianalytics"
                   style={{
                     backgroundImage: `url(${project.image})`,
                     backgroundSize: "cover",
@@ -100,7 +100,7 @@ const AIAnalytics = () => {
                   <h3>{project.title}</h3>
                   <p>{project.subtitle}</p>
                 </div>
-                <div className="flip-card-back">
+                <div className="flip-card-back-aianalytics">
                   <h1>{project.title}</h1>
                   <p>{project.details}</p>
                 </div>
@@ -111,14 +111,14 @@ const AIAnalytics = () => {
       </div>
 
       {/* Generative AI Section */}
-      <div className="project-category">
-        <h2 className="category-title">Generative AI (Gen AI)</h2>
-        <div className="flip-card-holder">
+      <div className="project-category-aianalytics">
+        <h2 className="category-title-aianalytics">Generative AI (Gen AI)</h2>
+        <div className="flip-card-holder-aianalytics">
           {genAIProjects.map((project, index) => (
-            <div key={index} className="flip-card">
-              <div className="flip-card-inner">
+            <div key={index} className="flip-card-aianalytics">
+              <div className="flip-card-inner-aianalytics">
                 <div
-                  className="flip-card-front"
+                  className="flip-card-front-aianalytics"
                   style={{
                     backgroundImage: `url(${project.image})`,
                     backgroundSize: "cover",
@@ -131,7 +131,7 @@ const AIAnalytics = () => {
                   <h3>{project.title}</h3>
                   <p>{project.subtitle}</p>
                 </div>
-                <div className="flip-card-back">
+                <div className="flip-card-back-aianalytics">
                   <h1>{project.title}</h1>
                   <p>{project.details}</p>
                 </div>

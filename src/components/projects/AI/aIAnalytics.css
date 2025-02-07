@@ -1,0 +1,130 @@
+.dashboard-aianalytics {
+    padding: 20px;
+  }
+  
+  .dashboard-header-aianalytics {
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5), #333);
+    color: white;
+    padding: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-header-aianalytics h1 {
+    font-size: 2.5rem;
+  }
+  
+  .project-category-aianalytics {
+    margin: 40px 0;
+  }
+  
+  .category-title-aianalytics {
+    font-size: 2rem;
+    color: beige;
+    text-align: center;
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Flip Card Holder */
+.flip-card-holder-aianalytics {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+/* Flip Card */
+.flip-card-aianalytics {
+    background-color: transparent;
+    width: 350px;
+    height: 450px;
+    perspective: 1000px;
+}
+
+.flip-card-inner-aianalytics {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.flip-card-aianalytics:hover .flip-card-inner-aianalytics {
+    transform: rotateY(180deg);
+}
+
+/* Front & Back Card Styling */
+.flip-card-front-aianalytics,
+.flip-card-back-aianalytics {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* Front Side */
+.flip-card-front-aianalytics {
+    /* background: linear-gradient(135deg, #444, #222); */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.flip-card-front-aianalytics h3 {
+    font-size: 2.0em;
+    font-weight: 600;
+    /* color: azure; */
+    margin-bottom: 10px;
+    /* padding-top: 200px; */
+
+  }
+  
+  .flip-card-front-aianalytics p {
+    font-size: 1.1em;
+    opacity: 0.8;
+  }
+  
+  /* Back Side */
+  .flip-card-back-aianalytics {
+    background-color: #333;
+    transform: rotateY(180deg);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .flip-card-back-aianalytics h1 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  .flip-card-back-aianalytics p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  
+  /* Responsive Styling */
+  @media only screen and (max-width: 768px) {
+    .flip-card-aianalytics {
+      width: 250px;
+      height: 350px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .flip-card-aianalytics {
+      width: 220px;
+      height: 320px;
+    }
+  }
+  
