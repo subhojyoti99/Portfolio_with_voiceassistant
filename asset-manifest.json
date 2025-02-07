@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio_with_voiceassistant/static/css/main.6c847f29.css",
-    "main.js": "/Portfolio_with_voiceassistant/static/js/main.2f2ff5e9.js",
+    "main.css": "/Portfolio_with_voiceassistant/static/css/main.262bbd87.css",
+    "main.js": "/Portfolio_with_voiceassistant/static/js/main.eab1da33.js",
     "static/js/453.35884a0e.chunk.js": "/Portfolio_with_voiceassistant/static/js/453.35884a0e.chunk.js",
     "static/media/myPic.jpg": "/Portfolio_with_voiceassistant/static/media/myPic.81bb602cd2989efbca8e.jpg",
     "static/media/deepsort.jpg": "/Portfolio_with_voiceassistant/static/media/deepsort.303f2e1e3880aa50c7e0.jpg",
@@ -15,12 +15,12 @@
     "static/media/surveillance.avif": "/Portfolio_with_voiceassistant/static/media/surveillance.62081bb83642df12e2a4.avif",
     "static/media/medical.jpg": "/Portfolio_with_voiceassistant/static/media/medical.d0776aa12e3b8ddcf974.jpg",
     "index.html": "/Portfolio_with_voiceassistant/index.html",
-    "main.6c847f29.css.map": "/Portfolio_with_voiceassistant/static/css/main.6c847f29.css.map",
-    "main.2f2ff5e9.js.map": "/Portfolio_with_voiceassistant/static/js/main.2f2ff5e9.js.map",
+    "main.262bbd87.css.map": "/Portfolio_with_voiceassistant/static/css/main.262bbd87.css.map",
+    "main.eab1da33.js.map": "/Portfolio_with_voiceassistant/static/js/main.eab1da33.js.map",
     "453.35884a0e.chunk.js.map": "/Portfolio_with_voiceassistant/static/js/453.35884a0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c847f29.css",
-    "static/js/main.2f2ff5e9.js"
+    "static/css/main.262bbd87.css",
+    "static/js/main.eab1da33.js"
   ]
 }
