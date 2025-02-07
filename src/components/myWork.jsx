@@ -31,7 +31,7 @@ const MyWork = () => {
               <button
                 type="button"
                 className="card-button"
-                onClick={() => navigate("/gen-ai-dashboard")}
+                onClick={() => navigate("/ai")}
               >
                 View Project
               </button>

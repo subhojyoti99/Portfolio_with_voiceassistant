@@ -1,0 +1,147 @@
+import React from "react";
+import "./aIAnalytics.css";
+import surveillanceImg from "../../../images/surveillance.avif";
+import deepSortImg from "../../../images/deepsort.jpg";
+import legalAnalystImg from "../../../images/legal.jpg";
+import medicalImg from "../../../images/medical.jpg";
+
+const AIAnalytics = () => {
+  // **Computer Vision (CV) Projects**
+  const cvProjects = [
+    {
+      title: "Office Surveillance System",
+      subtitle: "Real-time monitoring with AI",
+      details:
+        "Developed an AI-powered surveillance system that tracks employee canteen breaks, gathering insights on attendance tracking, pose estimation, fire detection, unauthorized access, and movement mapping using computer vision models.",
+      image: surveillanceImg,
+      colorCode: "Azure",
+      paddingTopValue: "220px",
+      paddingBottomValue: "0px",
+    },
+    {
+      title: "DeepSORT Object & Employee Tracking",
+      subtitle: "Advanced tracking in videos",
+      details:
+        "Integrated Deep SORT for tracking multiple moving objects also integrated with employees in video feeds, improving accuracy and reducing occlusions.",
+      image: deepSortImg,
+      colorCode: "Black",
+      paddingTopValue: "0px",
+      paddingBottomValue: "240px",
+    },
+  ];
+
+  // **Generative AI (Gen AI) Projects**
+  const genAIProjects = [
+    {
+      title: "Legal Analyst Agent",
+      subtitle: "AI-driven legal document analysis",
+      details:
+        "Built an AI-powered legal analysis tool using AWS Bedrock for embeddings and Qdrant for data retrieval.",
+      image: legalAnalystImg,
+      colorCode: "Navy",
+      paddingTopValue: "0px",
+      paddingBottomValue: "240px",
+    },
+    {
+      title: "Medical AI Multi Agent",
+      subtitle: "AI for healthcare insights",
+      details:
+        "Developed a RAG system to analyze multilingual medical documents and provide location-based assistance & agent-calling functionalities.",
+      image: medicalImg,
+      colorCode: "brown",
+      paddingTopValue: "0px",
+      paddingBottomValue: "220px",
+    },
+    {
+      title: "Unit Test Generation",
+      subtitle: "Automated test creation",
+      details:
+        "Designed an AI-powered system to generate unit test cases using OpenAI’s LLM, Groq, and PostgreSQL.",
+    },
+    {
+      title: "AI Document Management",
+      subtitle: "Translation & insights",
+      details:
+        "Implemented an AI system that translates documents into multiple languages and extracts key insights using Azure AI & Qdrant.",
+    },
+    {
+      title: "LangGraph & SQL Agents",
+      subtitle: "Intelligent agent decision-making",
+      details:
+        "Developed SQL and Visual Agents using LangGraph, enabling AI-driven data interactions and decision-making.",
+    },
+  ];
+
+  return (
+    <div className="dashboard">
+      {/* Header */}
+      <header className="dashboard-header">
+        <h1>AI & Analytics Chapter</h1>
+      </header>
+
+      {/* Computer Vision Section */}
+      <div className="project-category">
+        <h2 className="category-title">Computer Vision (CV)</h2>
+        <div className="flip-card-holder">
+          {cvProjects.map((project, index) => (
+            <div key={index} className="flip-card">
+              <div className="flip-card-inner">
+                <div
+                  className="flip-card-front"
+                  style={{
+                    backgroundImage: `url(${project.image})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    color: project.colorCode,
+                    paddingTop: project.paddingTopValue,
+                    paddingBottom: project.paddingBottomValue,
+                  }}
+                >
+                  <h3>{project.title}</h3>
+                  <p>{project.subtitle}</p>
+                </div>
+                <div className="flip-card-back">
+                  <h1>{project.title}</h1>
+                  <p>{project.details}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Generative AI Section */}
+      <div className="project-category">
+        <h2 className="category-title">Generative AI (Gen AI)</h2>
+        <div className="flip-card-holder">
+          {genAIProjects.map((project, index) => (
+            <div key={index} className="flip-card">
+              <div className="flip-card-inner">
+                <div
+                  className="flip-card-front"
+                  style={{
+                    backgroundImage: `url(${project.image})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    color: project.colorCode,
+                    paddingTop: project.paddingTopValue,
+                    paddingBottom: project.paddingBottomValue,
+                  }}
+                >
+                  <h3>{project.title}</h3>
+                  <p>{project.subtitle}</p>
+                </div>
+                <div className="flip-card-back">
+                  <h1>{project.title}</h1>
+                  <p>{project.details}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default AIAnalytics;

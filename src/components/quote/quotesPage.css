@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali&family=Dancing+Script&display=swap');
+
+.quotes-container {
+    text-align: center;
+    background: url("../../images/old-paper_1.jpg") no-repeat center center/cover;
+    padding: 40px;
+    min-height: 100vh;
+}
+
+.back-button {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background: #3b2b1d;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+.back-button:hover {
+    background-color: #5a4231;
+    transform: scale(1.05);
+}
+
+.quotes-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #5a4231;
+    font-family: 'Dancing Script', cursive;
+}
+
+.quotes-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quote-card {
+    width: 30%;
+    padding: 3%;
+    background: url("../../images/old-paper.jpg") no-repeat center center/cover;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 2.6rem;
+    font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
+    font-style: italic;
+    color: #3b2b1d;
+    transition: transform 0.3s ease;
+}
+
+.quote-card:hover {
+    transform: scale(1.05);
+}
+
+.bn-quote {
+    font-family: 'Noto Serif Bengali', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3b2b1d;
+}
+
+.en-quote {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.3rem;
+    margin-top: 5px;
+    color: #5a3e2b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .quote-card {
+        width: 80%;
+    }
+
+    .quotes-title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .quote-card {
+        width: 100%;
+    }
+
+    .quotes-title {
+        font-size: 2rem;
+    }
+}

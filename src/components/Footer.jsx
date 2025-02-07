@@ -103,14 +103,14 @@ export default function Footer() {
               </div>
               <div className="latestUpdate">
                 <p>
-                  Latest Update -- November 18<sup>th</sup>, 2024
+                  Latest Update -- February 8<sup>th</sup>, 2025
                 </p>
                 {/* <Map /> */}
               </div>
             </div>
           </div>
           <div className="back-to-top">
-            <a href="#opening">Back to TOP</a>
+            <a href="#">Back to TOP</a>
           </div>
         </div>
       </section>

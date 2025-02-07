@@ -1,8 +1,10 @@
 import React from "react";
 import MyPic from "../images/myPic.jpg";
+import { useNavigate } from "react-router-dom";
 import "./styles/nameWord.css";
 
 export const NameWord = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section id="myword">
@@ -26,7 +28,11 @@ export const NameWord = () => {
             story.
           </p>
           <p className="quote">- I stand with my belief</p>
-          <button type="button" className="holo-button wordbutton">
+          <button
+            type="button"
+            className="holo-button wordbutton"
+            onClick={() => navigate("/quotes")}
+          >
             View More
           </button>
         </div>
