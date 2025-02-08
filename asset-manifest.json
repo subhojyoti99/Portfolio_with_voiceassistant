@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio_with_voiceassistant/static/css/main.262bbd87.css",
-    "main.js": "/Portfolio_with_voiceassistant/static/js/main.eab1da33.js",
+    "main.css": "/Portfolio_with_voiceassistant/static/css/main.6c579fb0.css",
+    "main.js": "/Portfolio_with_voiceassistant/static/js/main.c1041a97.js",
     "static/js/453.35884a0e.chunk.js": "/Portfolio_with_voiceassistant/static/js/453.35884a0e.chunk.js",
+    "static/media/med_1.png": "/Portfolio_with_voiceassistant/static/media/med_1.353d86c51d35ad7e58bd.png",
     "static/media/myPic.jpg": "/Portfolio_with_voiceassistant/static/media/myPic.81bb602cd2989efbca8e.jpg",
     "static/media/deepsort.jpg": "/Portfolio_with_voiceassistant/static/media/deepsort.303f2e1e3880aa50c7e0.jpg",
     "static/media/old-paper.jpg": "/Portfolio_with_voiceassistant/static/media/old-paper.6bbd7ed0e2588baca415.jpg",
@@ -13,14 +14,13 @@
     "static/media/sign.png": "/Portfolio_with_voiceassistant/static/media/sign.c311150893d6a348a2bb.png",
     "static/media/sign_cropped.png": "/Portfolio_with_voiceassistant/static/media/sign_cropped.2f621ce653596511fbe1.png",
     "static/media/surveillance.avif": "/Portfolio_with_voiceassistant/static/media/surveillance.62081bb83642df12e2a4.avif",
-    "static/media/medical.jpg": "/Portfolio_with_voiceassistant/static/media/medical.d0776aa12e3b8ddcf974.jpg",
     "index.html": "/Portfolio_with_voiceassistant/index.html",
-    "main.262bbd87.css.map": "/Portfolio_with_voiceassistant/static/css/main.262bbd87.css.map",
-    "main.eab1da33.js.map": "/Portfolio_with_voiceassistant/static/js/main.eab1da33.js.map",
+    "main.6c579fb0.css.map": "/Portfolio_with_voiceassistant/static/css/main.6c579fb0.css.map",
+    "main.c1041a97.js.map": "/Portfolio_with_voiceassistant/static/js/main.c1041a97.js.map",
     "453.35884a0e.chunk.js.map": "/Portfolio_with_voiceassistant/static/js/453.35884a0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.262bbd87.css",
-    "static/js/main.eab1da33.js"
+    "static/css/main.6c579fb0.css",
+    "static/js/main.c1041a97.js"
   ]
 }
