@@ -3,7 +3,9 @@ import "./aIAnalytics.css";
 import surveillanceImg from "../../../images/surveillance.avif";
 import deepSortImg from "../../../images/deepsort.jpg";
 import legalAnalystImg from "../../../images/legal.jpg";
-import medicalImg from "../../../images/medical.jpg";
+import medicalImg from "../../../images/med_1.png";
+import testOpsImg from "../../../images/test_1.jpg";
+import translateImg from "../../../images/translate.jpg";
 
 const AIAnalytics = () => {
   // **Computer Vision (CV) Projects**
@@ -43,26 +45,34 @@ const AIAnalytics = () => {
       paddingBottomValue: "240px",
     },
     {
-      title: "Medical AI Multi Agent",
+      title: "Medical Multi Agent",
       subtitle: "AI for healthcare insights",
       details:
         "Developed a RAG system to analyze multilingual medical documents and provide location-based assistance & agent-calling functionalities.",
       image: medicalImg,
-      colorCode: "brown",
-      paddingTopValue: "0px",
-      paddingBottomValue: "220px",
+      colorCode: "Black",
+      paddingTopValue: "300px",
+      paddingBottomValue: "0",
     },
     {
       title: "Unit Test Generation",
       subtitle: "Automated test creation",
       details:
         "Designed an AI-powered system to generate unit test cases using OpenAI’s LLM, Groq, and PostgreSQL.",
+      image: testOpsImg,
+      colorCode: "Azure",
+      paddingTopValue: "0px",
+      paddingBottomValue: "240px",
     },
     {
-      title: "AI Document Management",
+      title: "Agent for Document Management",
       subtitle: "Translation & insights",
       details:
         "Implemented an AI system that translates documents into multiple languages and extracts key insights using Azure AI & Qdrant.",
+      image: translateImg,
+      colorCode: "Navy",
+      paddingTopValue: "240px",
+      paddingBottomValue: "0",
     },
     {
       title: "LangGraph & SQL Agents",

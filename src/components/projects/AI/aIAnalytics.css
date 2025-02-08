@@ -12,7 +12,7 @@
   }
   
   .dashboard-header-aianalytics h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   
   .project-category-aianalytics {
@@ -20,7 +20,7 @@
   }
   
   .category-title-aianalytics {
-    font-size: 2rem;
+    font-size: 2.4rem;
     color: beige;
     text-align: center;
     border-bottom: 2px solid #444;
@@ -34,6 +34,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 5rem;
+    margin-top: 50px;
 }
 
 /* Flip Card */
@@ -91,8 +92,9 @@
   }
   
   .flip-card-front-aianalytics p {
-    font-size: 1.1em;
-    opacity: 0.8;
+    font-size: 1.3em;
+    opacity: 0.85;
+    font-weight: 400;
   }
   
   /* Back Side */
