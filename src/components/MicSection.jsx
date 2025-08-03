@@ -6,7 +6,7 @@ import Groq from "groq-sdk";
 
 // Initialize the Groq instance with your API key
 const groq = new Groq({
-  apiKey: "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",
+  apiKey: "xxxxxxxxxxxxxxxxxx",
   dangerouslyAllowBrowser: true,
 });
 
@@ -211,7 +211,8 @@ export const MicSection = () => {
       }
 
       // Generate and read out the response
-      const response = await getGroqChatCompletion(transcript);
+      // const response = await getGroqChatCompletion(transcript);
+      const response = "We are still working on it.";
       console.log("Generated response:", response);
 
       const speech = new SpeechSynthesisUtterance();
